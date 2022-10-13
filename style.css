@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+
+
+.nav-bloc {
+    display: flex;
+}
+
+ul li {
+    display: inline-block;
+    padding: 4px 17px;
+}
+
+.child1 {
+    flex-grow: 5;
+}
+
+.child2 {
+    flex-grow: 4;
+    text-align: right;
+    margin-right: 3.2em;
+}
+
+.child3 {
+    flex-grow: 3;
+    text-align: right;
+}
+
+nav {
+    height: 100px;
+    width: 1000px;
+    margin: auto;
+    align-items: center;
+    padding-top: 40px;
+}
+
+ul li .nav-decoration,
+nav.item {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.button-decoration{
+    border-radius: 0.3em;
+    background-color: #1998FF;
+    padding: 10px 15px;
+    border: none;
+    color: rgb(250, 248, 245);
+    cursor: pointer;
+   
+}
+
+
+.button-decoration:hover{
+    background-color: transparent;
+    color: blue;
+    outline: 1px solid blue;
+}
+
+nav .nav-item .nav-decoration:hover{
+color: rgb(228, 7, 7);
+
+}
+h1{
+    font-weight: 900;
+    font-size: 2.2em;
+    width:650px;
+    margin: auto;
+}
+
+.decoration1{
+    border-radius: 0.3em;
+    background-color: #feba6b ;
+    padding: 12px 18px;
+    border: none;
+    color:  #fc7341;
+    cursor: pointer;
+    font-weight: 700;
+   margin: 20px  0px 20px 0px;
+}
+.decoration2{
+    border-radius: 0.3em;
+    background-color:  #99e2ca ;
+    padding: 12px 18px;
+    border: none;
+    color: #5ed6b3 ;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 20px  0px 20px 8px;
+}
+
+.decoration1:hover{
+    background-color: rgb(240, 237, 233);
+    color: #fc7341;
+    outline: 2px solid #fc7341;
+}
+
+
+.decoration2:hover{
+    background-color: rgb(240, 237, 233);
+    color: #5ed6b3;
+    outline: 2px solid #5ed6b3;
+}
+
+.mainsize{
+    text-align: center;
+}
+
+h3{
+    font-size: 1.9em;
+}
+
+h4{
+font-size: 1.2em;
+margin-top: 10px;
+}
+.main-bloc{
+    margin: 65px;
+}
+
+.box1{
+    width: 280px;
+}
+
+
+.section{
+   display: flex;
+   justify-content: space-around;
+   margin: 0px 40px 60px 50px;
+ 
+}
+.box1-hover:hover{
+    transform: scale(1.1,1.1);
+    transition: all 1s;
+}
+
+article{
+    width: 400px;
+}
+.article-space{
+    margin: 20px 0px;
+}
+.article-size{
+    width: 350px;
+    color: #816E6E;
+    font-size: 0.9em;
+}
+
+.justify{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    border-radius: 0.3em;
+    background-color: #1998FF;
+    padding: 10px 22px;
+    border: none;
+    color: rgb(250, 248, 245);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #1998FF;
+    outline: 1px solid #1998FF;
+}
+.image-section {
+    width: 250px;
+    height: 250px;
+}
+
+.txt-section{
+    margin: 20px 30px;
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    background-color: #EFF3F6;
+    width: 350px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.card:hover{
+    transform: scale(1.1,1.1);
+    transition: all 2s;
+}
+
+.img-size{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+
+.border{
+    border-bottom: solid 0.2em#fd2600;
+    width: 82px;
+    margin: auto;
+}
+
+h4:hover{
+    color: blue;
+    
+}
+
+.btn-contact{
+    border-radius: 1.6em;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 0.2em solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+
+}
+.btn-contact:hover{
+    background-color: red;
+    color: #ffffff;
+    outline: 1px solid #ffffff;
+}
+
+.bgr-contact{
+    margin: 70px;
+}
+
+.bgr-contact{
+    background-image: url(image/gdpr.jpg);
+    height: 250px;
+    width: 1100px;
+    margin: 60px auto 60px auto;
+    text-align: center;
+    padding: 6em 0em;
+}
+
+.simple-section{
+width: 300px;
+}
+
+.article-space1{
+    margin: 10px 0px;
+}
+
+.btn-subscribe{
+    border-radius: 0.3em;
+    background-color: #060607;
+    padding: 10px 22px;
+    border: none;
+    color: rgb(250, 248, 245);
+    cursor: pointer;
+}
+
+.btn-subscribe:hover{
+    background-color: transparent;
+    color: #000000;
+    outline: 1px solid #161616;
+}
+
+.input-decoration{
+    background-color: #F6F7FB;
+    border: none;
+    padding: 8px 65px;
+}
+
+hr{
+    margin: 90px auto  auto auto ;
+    width: 1100px;
+    
+}
+span{
+    color: red;
+}
+
+
+p{
+     color: #776E6E;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #FFFFFF;
+    height: 110px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-width: 400px ) {
+    .section{
+        width: 350px;
+        padding: 100px;
+    }
+.row .row-box{
+    width: 100%;
+}
+
+}
